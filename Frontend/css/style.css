@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #7CB2E0, #ff99cc); /* Degradado de rosa claro a rosa oscuro */
+
+  
+  
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.menu ul li {
+  margin-bottom: 10px; /* Espacio entre las opciones */
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block; /* Hace que cada opción sea una caja independiente */
+}
+
+.menu ul li a.active {
+  background-color: #0056b3;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.register-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.register-btn:hover {
+  background-color: #218838;
+}
+
+.logo-container {
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: auto;
+  margin: 50px auto 20px; /* 50px arriba, centrado horizontalmente y 20px abajo */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Establece el alto del body al 100% del viewport */
+  margin: 0; /* Elimina el margen por defecto del body */
+}
+
+#recordarContraseñaContainer {
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* CONTRASEÑA */
+.form-group {
+  align-items: center;
+}
+
+label[for="password"] {
+  flex: 5; /* Hace que el campo de contraseña ocupe el espacio restante */
+}
+
+label[for="showPassword"] {
+  margin-left: auto; /* Mueve el texto "Mostrar contraseña" a la derecha */
+  font-size: 0.8em; /* Reduce el tamaño del texto */
+  align-self: flex-end; /* Alinea el texto en la parte inferior */
+}
+

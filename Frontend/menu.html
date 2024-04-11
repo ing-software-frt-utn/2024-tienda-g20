@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Horizontal y Vertical</title>
+    <style>
+        /* Estilos para el menú horizontal */
+        .menu-horizontal {
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient(to bottom, #7CB2E0, #ff99cc);
+            color: white;
+            padding: 25px;
+        }
+
+        .menu-horizontal a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+       /* Estilos para el menú vertical */
+       .menu-vertical {
+            position: fixed;
+            top: 15%;
+            left: 0;
+            width: 80px; /* Ancho del menú vertical */
+            height: 80vh; /* Altura del menú vertical */
+            background: linear-gradient(to bottom, #7CB2E0, #ff99cc);
+            color: white;
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-vertical a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Menú horizontal -->
+<div class="menu-horizontal">
+    <div class="menu-item">
+        <a href="#"><img src="/Img/cliente.png" alt="" width="20" height="20"> Cliente</a>
+    </div>
+    <div class="menu-item">
+        <a href="#"><img src="producto.png" alt="Producto" width="20" height="20"> Producto</a>
+    </div>
+    <div class="menu-item">
+        <a href="#"><img src="vendedor.png" alt="Vendedor" width="20" height="20"> Vendedor</a>
+    </div>
+    <div class="menu-item">
+      <a href="#"><img src="vendedor.png" alt="Venta" width="20" height="20"> Venta</a>
+  </div>
+</div>
+</body>
+</html>

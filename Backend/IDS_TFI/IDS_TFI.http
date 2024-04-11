@@ -1,0 +1,30 @@
+@IDS_TFI_HostAddress = http://localhost:5118
+
+### Login como admin
+POST {{IDS_TFI_HostAddress}}/api/Login/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "usuario": "admin",
+  "contra": "admin"
+}
+
+### Login como vendedor
+POST {{IDS_TFI_HostAddress}}/api/Login/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "usuario": "vendedor",
+  "contra": "vendedor"
+}
+
+
+### Tipos de comprobantes
+GET {{IDS_TFI_HostAddress}}/api/comprobantes/tipos
+Content-Type: application/json
+Accept: application/json
+
+###
+
